@@ -1,0 +1,8 @@
+/* 文件名：index.css
+   日期：2025-09-15
+   版本：v1.0.0
+   作者：Auto
+   功能说明：全局样式（集成 Tailwind CSS） */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

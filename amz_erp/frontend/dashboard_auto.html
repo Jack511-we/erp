@@ -1,0 +1,59 @@
+<!-- 自动生成的ERP仪表盘页面模板，支持多维度筛选、图表联动、多级下钻、主题切换 -->
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>ERP数据分析仪表盘</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>ERP数据分析仪表盘</h1>
+        <button id="themeBtn">主题切换</button>
+    </header>
+    <section class="filters">
+        <label>日期范围：</label>
+        <input type="date" id="startDate"> - <input type="date" id="endDate">
+        <label>模块：</label>
+        <select id="modules" multiple>
+            <option value="order">订单</option>
+            <option value="inventory">库存</option>
+            <option value="ads">广告</option>
+            <option value="settlement">结算</option>
+            <option value="summary">综合汇总</option>
+        </select>
+        <label>SKU：</label>
+        <input type="text" id="skuFilter" placeholder="输入SKU" list="skuSuggest">
+        <datalist id="skuSuggest"></datalist>
+        <label>广告类型：</label>
+        <select id="adType" multiple>
+            <option value="all">全部</option>
+            <option value="sp">SP</option>
+            <option value="sb">SB</option>
+            <option value="sd">SD</option>
+        </select>
+        <label>筛选组合：</label>
+        <button id="saveFilterBtn">保存当前筛选</button>
+        <button id="loadFilterBtn">加载筛选</button>
+        <label>导出格式：</label>
+        <select id="exportFormat">
+            <option value="csv">CSV</option>
+            <option value="xlsx">Excel</option>
+            <option value="pdf">PDF</option>
+        </select>
+        <button id="refreshBtn">刷新</button>
+        <button id="batchExportBtn">批量导出报表</button>
+    </section>
+    <main class="dashboard-grid">
+        <div id="orderChart" class="chart-box"></div>
+        <div id="inventoryChart" class="chart-box"></div>
+        <div id="adsChart" class="chart-box"></div>
+        <div id="settlementChart" class="chart-box"></div>
+        <div id="summaryChart" class="chart-box"></div>
+    </main>
+    <div id="detailModal" class="modal"></div>
+    <script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+    <script src="dashboard.js"></script>
+</body>
+</html>

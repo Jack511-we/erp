@@ -1,0 +1,291 @@
+[INFO] 2025-09-15 19:47:05 缓存数据成功: test_key
+[INFO] 2025-09-15 19:47:05 加载缓存成功: test_key
+[INFO] 2025-09-15 19:47:05 测试 info 日志
+[ERROR] 2025-09-15 19:47:05 测试 error 日志
+[ERROR] 2025-09-15 19:47:05 重试第1次失败: Test error
+[ERROR] 2025-09-15 19:47:06 重试第2次失败: Test error
+[ERROR] 2025-09-15 19:47:07 API重试失败，已达最大次数: 2
+[INFO] 2025-09-15 19:49:46 获取订单数据，开始日期:2025-09-01，结束日期:2025-09-10，过滤:{'status': 'Shipped'}
+[ERROR] 2025-09-15 19:49:46 加载缓存异常: [Errno 2] No such file or directory: "d:/erp/cache/orders_2025-09-01_2025-09-10_{'status': 'Shipped'}.pkl"
+[INFO] 2025-09-15 19:49:46 缓存数据成功: orders_2025-09-01_2025-09-10_{'status': 'Shipped'}
+[INFO] 2025-09-15 19:49:46 获取订单数据，开始日期:2025-09-01，结束日期:2025-09-10，过滤:{'status': 'Shipped'}
+[INFO] 2025-09-15 19:49:46 加载缓存成功: orders_2025-09-01_2025-09-10_{'status': 'Shipped'}
+[INFO] 2025-09-15 19:49:46 返回缓存订单数据
+[INFO] 2025-09-15 19:49:46 获取订单数据，开始日期:None，结束日期:None，过滤:None
+[ERROR] 2025-09-15 19:49:46 加载缓存异常: [Errno 2] No such file or directory: 'd:/erp/cache/orders_None_None_None.pkl'
+[INFO] 2025-09-15 19:49:46 缓存数据成功: orders_None_None_None
+[INFO] 2025-09-15 19:49:46 获取订单数据，开始日期:2025-09-01，结束日期:2025-09-10，过滤:{'status': 'Shipped'}
+[INFO] 2025-09-15 19:49:46 加载缓存成功: orders_2025-09-01_2025-09-10_{'status': 'Shipped'}
+[INFO] 2025-09-15 19:49:46 返回缓存订单数据
+[INFO] 2025-09-15 19:49:46 缓存数据成功: test_key
+[INFO] 2025-09-15 19:49:46 加载缓存成功: test_key
+[INFO] 2025-09-15 19:49:46 测试 info 日志
+[ERROR] 2025-09-15 19:49:46 测试 error 日志
+[ERROR] 2025-09-15 19:49:46 重试第1次失败: Test error
+[ERROR] 2025-09-15 19:49:47 重试第2次失败: Test error
+[ERROR] 2025-09-15 19:49:48 API重试失败，已达最大次数: 2
+[INFO] 2025-09-15 19:51:02 获取订单数据，开始日期:2025-09-01，结束日期:2025-09-10，过滤:{'status': 'Shipped'}
+[INFO] 2025-09-15 19:51:02 加载缓存成功: orders_2025-09-01_2025-09-10_{'status': 'Shipped'}
+[INFO] 2025-09-15 19:51:02 返回缓存订单数据
+[INFO] 2025-09-15 19:51:02 获取订单数据，开始日期:2025-09-01，结束日期:2025-09-10，过滤:{'status': 'Shipped'}
+[INFO] 2025-09-15 19:51:02 加载缓存成功: orders_2025-09-01_2025-09-10_{'status': 'Shipped'}
+[INFO] 2025-09-15 19:51:02 返回缓存订单数据
+[ERROR] 2025-09-15 19:51:02 订单数据获取异常: 参数不能为空
+[INFO] 2025-09-15 19:51:02 获取订单数据，开始日期:2025-09-01，结束日期:2025-09-10，过滤:{'status': 'Shipped'}
+[INFO] 2025-09-15 19:51:02 加载缓存成功: orders_2025-09-01_2025-09-10_{'status': 'Shipped'}
+[INFO] 2025-09-15 19:51:02 返回缓存订单数据
+[INFO] 2025-09-15 19:51:02 缓存数据成功: test_key
+[INFO] 2025-09-15 19:51:02 加载缓存成功: test_key
+[INFO] 2025-09-15 19:51:02 测试 info 日志
+[ERROR] 2025-09-15 19:51:02 测试 error 日志
+[ERROR] 2025-09-15 19:51:02 重试第1次失败: Test error
+[ERROR] 2025-09-15 19:51:03 重试第2次失败: Test error
+[ERROR] 2025-09-15 19:51:04 API重试失败，已达最大次数: 2
+[INFO] 2025-09-15 19:57:46 获取广告数据，过滤:{'sku': 'SKU1'}
+[ERROR] 2025-09-15 19:57:46 加载缓存异常: [Errno 2] No such file or directory: "d:/erp/cache/ads_{'sku': 'SKU1'}.pkl"
+[INFO] 2025-09-15 19:57:46 缓存数据成功: ads_{'sku': 'SKU1'}
+[INFO] 2025-09-15 19:57:46 获取广告数据，过滤:{'sku': 'SKU1'}
+[INFO] 2025-09-15 19:57:46 加载缓存成功: ads_{'sku': 'SKU1'}
+[INFO] 2025-09-15 19:57:46 返回缓存广告数据
+[INFO] 2025-09-15 19:57:46 获取广告数据，过滤:None
+[ERROR] 2025-09-15 19:57:46 加载缓存异常: [Errno 2] No such file or directory: 'd:/erp/cache/ads_None.pkl'
+[INFO] 2025-09-15 19:57:46 缓存数据成功: ads_None
+[INFO] 2025-09-15 19:57:46 获取广告数据，过滤:{'sku': 'SKU1'}
+[INFO] 2025-09-15 19:57:46 加载缓存成功: ads_{'sku': 'SKU1'}
+[INFO] 2025-09-15 19:57:46 返回缓存广告数据
+[INFO] 2025-09-15 19:57:46 获取库存数据，过滤:{'warehouse': 'WH1'}
+[ERROR] 2025-09-15 19:57:46 加载缓存异常: [Errno 2] No such file or directory: "d:/erp/cache/inventory_{'warehouse': 'WH1'}.pkl"
+[INFO] 2025-09-15 19:57:46 缓存数据成功: inventory_{'warehouse': 'WH1'}
+[INFO] 2025-09-15 19:57:46 获取库存数据，过滤:{'warehouse': 'WH1'}
+[INFO] 2025-09-15 19:57:46 加载缓存成功: inventory_{'warehouse': 'WH1'}
+[INFO] 2025-09-15 19:57:46 返回缓存库存数据
+[INFO] 2025-09-15 19:57:46 获取库存数据，过滤:None
+[ERROR] 2025-09-15 19:57:46 加载缓存异常: [Errno 2] No such file or directory: 'd:/erp/cache/inventory_None.pkl'
+[INFO] 2025-09-15 19:57:46 缓存数据成功: inventory_None
+[INFO] 2025-09-15 19:57:46 获取库存数据，过滤:{'warehouse': 'WH1'}
+[INFO] 2025-09-15 19:57:46 加载缓存成功: inventory_{'warehouse': 'WH1'}
+[INFO] 2025-09-15 19:57:46 返回缓存库存数据
+[INFO] 2025-09-15 19:57:46 获取订单数据，开始日期:2025-09-01，结束日期:2025-09-10，过滤:{'status': 'Shipped'}
+[INFO] 2025-09-15 19:57:46 加载缓存成功: orders_2025-09-01_2025-09-10_{'status': 'Shipped'}
+[INFO] 2025-09-15 19:57:46 返回缓存订单数据
+[INFO] 2025-09-15 19:57:46 获取订单数据，开始日期:2025-09-01，结束日期:2025-09-10，过滤:{'status': 'Shipped'}
+[INFO] 2025-09-15 19:57:46 加载缓存成功: orders_2025-09-01_2025-09-10_{'status': 'Shipped'}
+[INFO] 2025-09-15 19:57:46 返回缓存订单数据
+[ERROR] 2025-09-15 19:57:46 订单数据获取异常: 参数不能为空
+[INFO] 2025-09-15 19:57:46 获取订单数据，开始日期:2025-09-01，结束日期:2025-09-10，过滤:{'status': 'Shipped'}
+[INFO] 2025-09-15 19:57:46 加载缓存成功: orders_2025-09-01_2025-09-10_{'status': 'Shipped'}
+[INFO] 2025-09-15 19:57:46 返回缓存订单数据
+[INFO] 2025-09-15 19:57:46 获取结算数据，过滤:{'date': '2025-09-01'}
+[ERROR] 2025-09-15 19:57:46 加载缓存异常: [Errno 2] No such file or directory: "d:/erp/cache/settlement_{'date': '2025-09-01'}.pkl"
+[INFO] 2025-09-15 19:57:46 缓存数据成功: settlement_{'date': '2025-09-01'}
+[INFO] 2025-09-15 19:57:46 获取结算数据，过滤:{'date': '2025-09-01'}
+[INFO] 2025-09-15 19:57:46 加载缓存成功: settlement_{'date': '2025-09-01'}
+[INFO] 2025-09-15 19:57:46 返回缓存结算数据
+[INFO] 2025-09-15 19:57:46 获取结算数据，过滤:None
+[ERROR] 2025-09-15 19:57:46 加载缓存异常: [Errno 2] No such file or directory: 'd:/erp/cache/settlement_None.pkl'
+[INFO] 2025-09-15 19:57:46 缓存数据成功: settlement_None
+[INFO] 2025-09-15 19:57:46 获取结算数据，过滤:{'date': '2025-09-01'}
+[INFO] 2025-09-15 19:57:46 加载缓存成功: settlement_{'date': '2025-09-01'}
+[INFO] 2025-09-15 19:57:46 返回缓存结算数据
+[INFO] 2025-09-15 19:57:46 缓存数据成功: test_key
+[INFO] 2025-09-15 19:57:46 加载缓存成功: test_key
+[INFO] 2025-09-15 19:57:46 测试 info 日志
+[ERROR] 2025-09-15 19:57:46 测试 error 日志
+[ERROR] 2025-09-15 19:57:46 重试第1次失败: Test error
+[ERROR] 2025-09-15 19:57:47 重试第2次失败: Test error
+[ERROR] 2025-09-15 19:57:48 API重试失败，已达最大次数: 2
+[INFO] 2025-09-15 21:06:47 获取订单数据，开始日期:2025-09-01，结束日期:2025-09-15，过滤:['excel', 'pdf', 'csv']
+[ERROR] 2025-09-15 21:06:47 加载缓存异常: [Errno 2] No such file or directory: "d:/erp/cache/orders_2025-09-01_2025-09-15_['excel', 'pdf', 'csv'].pkl"
+[INFO] 2025-09-15 21:06:47 缓存数据成功: orders_2025-09-01_2025-09-15_['excel', 'pdf', 'csv']
+[INFO] 2025-09-15 21:06:47 导出Excel成功: order_summary_2025-09-01_2025-09-15.xlsx_20250915_210647.xlsx
+[INFO] 2025-09-15 21:06:47 导出CSV成功: order_summary_2025-09-01_2025-09-15.csv_20250915_210647.csv
+[ERROR] 2025-09-15 21:06:47 导出PDF失败: 'latin-1' codec can't encode characters in position 50-53: ordinal not in range(256)
+[INFO] 2025-09-15 21:09:55 获取订单数据，开始日期:2025-09-01，结束日期:2025-09-15，过滤:['excel', 'pdf', 'csv']
+[INFO] 2025-09-15 21:09:55 加载缓存成功: orders_2025-09-01_2025-09-15_['excel', 'pdf', 'csv']
+[INFO] 2025-09-15 21:09:55 返回缓存订单数据
+[INFO] 2025-09-15 21:09:55 导出Excel成功: order_summary_2025-09-01_2025-09-15.xlsx_20250915_210955.xlsx
+[INFO] 2025-09-15 21:09:55 导出CSV成功: order_summary_2025-09-01_2025-09-15.csv_20250915_210955.csv
+[ERROR] 2025-09-15 21:09:55 导出PDF失败: 'latin-1' codec can't encode characters in position 50-53: ordinal not in range(256)
+[INFO] 2025-09-15 21:09:55 获取库存数据，过滤:['excel', 'pdf', 'csv']
+[ERROR] 2025-09-15 21:09:55 加载缓存异常: [Errno 2] No such file or directory: "d:/erp/cache/inventory_['excel', 'pdf', 'csv'].pkl"
+[INFO] 2025-09-15 21:09:55 缓存数据成功: inventory_['excel', 'pdf', 'csv']
+[INFO] 2025-09-15 21:09:55 导出Excel成功: inventory_summary.xlsx_20250915_210955.xlsx
+[INFO] 2025-09-15 21:09:55 导出CSV成功: inventory_summary.csv_20250915_210955.csv
+[ERROR] 2025-09-15 21:09:55 导出PDF失败: 'latin-1' codec can't encode characters in position 53-54: ordinal not in range(256)
+[INFO] 2025-09-15 21:10:46 获取订单数据，开始日期:2025-09-01，结束日期:2025-09-15，过滤:['excel', 'pdf', 'csv']
+[INFO] 2025-09-15 21:10:46 加载缓存成功: orders_2025-09-01_2025-09-15_['excel', 'pdf', 'csv']
+[INFO] 2025-09-15 21:10:46 返回缓存订单数据
+[INFO] 2025-09-15 21:10:46 导出Excel成功: order_summary_2025-09-01_2025-09-15.xlsx_20250915_211046.xlsx
+[INFO] 2025-09-15 21:10:46 导出CSV成功: order_summary_2025-09-01_2025-09-15.csv_20250915_211046.csv
+[ERROR] 2025-09-15 21:10:46 导出PDF失败: 'latin-1' codec can't encode characters in position 50-53: ordinal not in range(256)
+[INFO] 2025-09-15 21:10:46 获取库存数据，过滤:['excel', 'pdf', 'csv']
+[INFO] 2025-09-15 21:10:46 加载缓存成功: inventory_['excel', 'pdf', 'csv']
+[INFO] 2025-09-15 21:10:46 返回缓存库存数据
+[INFO] 2025-09-15 21:10:46 导出Excel成功: inventory_summary.xlsx_20250915_211046.xlsx
+[INFO] 2025-09-15 21:10:46 导出CSV成功: inventory_summary.csv_20250915_211046.csv
+[ERROR] 2025-09-15 21:10:46 导出PDF失败: 'latin-1' codec can't encode characters in position 53-54: ordinal not in range(256)
+[INFO] 2025-09-15 21:10:46 获取广告数据，过滤:['excel', 'pdf', 'csv']
+[ERROR] 2025-09-15 21:10:46 加载缓存异常: [Errno 2] No such file or directory: "d:/erp/cache/ads_['excel', 'pdf', 'csv'].pkl"
+[INFO] 2025-09-15 21:10:46 缓存数据成功: ads_['excel', 'pdf', 'csv']
+[INFO] 2025-09-15 21:10:46 导出Excel成功: ads_summary.xlsx_20250915_211046.xlsx
+[INFO] 2025-09-15 21:10:46 导出CSV成功: ads_summary.csv_20250915_211046.csv
+[ERROR] 2025-09-15 21:10:46 导出PDF失败: 'latin-1' codec can't encode characters in position 50-53: ordinal not in range(256)
+[INFO] 2025-09-15 21:10:46 获取结算数据，过滤:['excel', 'pdf', 'csv']
+[ERROR] 2025-09-15 21:10:46 加载缓存异常: [Errno 2] No such file or directory: "d:/erp/cache/settlement_['excel', 'pdf', 'csv'].pkl"
+[INFO] 2025-09-15 21:10:46 缓存数据成功: settlement_['excel', 'pdf', 'csv']
+[INFO] 2025-09-15 21:10:46 导出Excel成功: settlement_summary.xlsx_20250915_211046.xlsx
+[INFO] 2025-09-15 21:10:46 导出CSV成功: settlement_summary.csv_20250915_211046.csv
+[ERROR] 2025-09-15 21:10:46 导出PDF失败: 'latin-1' codec can't encode characters in position 50-53: ordinal not in range(256)
+[INFO] 2025-09-15 21:11:04 获取订单数据，开始日期:2025-09-01，结束日期:2025-09-15，过滤:['excel', 'pdf', 'csv']
+[INFO] 2025-09-15 21:11:04 加载缓存成功: orders_2025-09-01_2025-09-15_['excel', 'pdf', 'csv']
+[INFO] 2025-09-15 21:11:04 返回缓存订单数据
+[INFO] 2025-09-15 21:11:04 导出Excel成功: order_summary_2025-09-01_2025-09-15.xlsx_20250915_211104.xlsx
+[INFO] 2025-09-15 21:11:04 导出CSV成功: order_summary_2025-09-01_2025-09-15.csv_20250915_211104.csv
+[ERROR] 2025-09-15 21:11:04 导出PDF失败: 'latin-1' codec can't encode characters in position 50-53: ordinal not in range(256)
+[INFO] 2025-09-15 21:11:04 获取库存数据，过滤:['excel', 'pdf', 'csv']
+[INFO] 2025-09-15 21:11:04 加载缓存成功: inventory_['excel', 'pdf', 'csv']
+[INFO] 2025-09-15 21:11:04 返回缓存库存数据
+[INFO] 2025-09-15 21:11:04 导出Excel成功: inventory_summary.xlsx_20250915_211104.xlsx
+[INFO] 2025-09-15 21:11:04 导出CSV成功: inventory_summary.csv_20250915_211104.csv
+[ERROR] 2025-09-15 21:11:04 导出PDF失败: 'latin-1' codec can't encode characters in position 53-54: ordinal not in range(256)
+[INFO] 2025-09-15 21:11:04 获取广告数据，过滤:['excel', 'pdf', 'csv']
+[INFO] 2025-09-15 21:11:04 加载缓存成功: ads_['excel', 'pdf', 'csv']
+[INFO] 2025-09-15 21:11:04 返回缓存广告数据
+[INFO] 2025-09-15 21:11:04 导出Excel成功: ads_summary.xlsx_20250915_211104.xlsx
+[INFO] 2025-09-15 21:11:04 导出CSV成功: ads_summary.csv_20250915_211104.csv
+[ERROR] 2025-09-15 21:11:04 导出PDF失败: 'latin-1' codec can't encode characters in position 50-53: ordinal not in range(256)
+[INFO] 2025-09-15 21:11:04 获取结算数据，过滤:['excel', 'pdf', 'csv']
+[INFO] 2025-09-15 21:11:04 加载缓存成功: settlement_['excel', 'pdf', 'csv']
+[INFO] 2025-09-15 21:11:04 返回缓存结算数据
+[INFO] 2025-09-15 21:11:04 导出Excel成功: settlement_summary.xlsx_20250915_211104.xlsx
+[INFO] 2025-09-15 21:11:04 导出CSV成功: settlement_summary.csv_20250915_211104.csv
+[ERROR] 2025-09-15 21:11:04 导出PDF失败: 'latin-1' codec can't encode characters in position 50-53: ordinal not in range(256)
+[INFO] 2025-09-15 21:11:04 获取订单数据，开始日期:2025-09-01，结束日期:2025-09-15，过滤:{'export_formats': ['excel', 'pdf', 'csv']}
+[ERROR] 2025-09-15 21:11:04 加载缓存异常: [Errno 2] No such file or directory: "d:/erp/cache/orders_2025-09-01_2025-09-15_{'export_formats': ['excel', 'pdf', 'csv']}.pkl"
+[INFO] 2025-09-15 21:11:04 缓存数据成功: orders_2025-09-01_2025-09-15_{'export_formats': ['excel', 'pdf', 'csv']}
+[INFO] 2025-09-15 21:11:04 导出Excel成功: order_summary_2025-09-01_2025-09-15.xlsx_20250915_211104.xlsx
+[INFO] 2025-09-15 21:11:04 导出CSV成功: order_summary_2025-09-01_2025-09-15.csv_20250915_211104.csv
+[ERROR] 2025-09-15 21:11:04 导出PDF失败: 'latin-1' codec can't encode characters in position 50-53: ordinal not in range(256)
+[INFO] 2025-09-15 21:11:04 获取库存数据，过滤:{'export_formats': ['excel', 'pdf', 'csv']}
+[ERROR] 2025-09-15 21:11:04 加载缓存异常: [Errno 2] No such file or directory: "d:/erp/cache/inventory_{'export_formats': ['excel', 'pdf', 'csv']}.pkl"
+[INFO] 2025-09-15 21:11:04 缓存数据成功: inventory_{'export_formats': ['excel', 'pdf', 'csv']}
+[INFO] 2025-09-15 21:11:04 导出Excel成功: inventory_summary.xlsx_20250915_211104.xlsx
+[INFO] 2025-09-15 21:11:04 导出CSV成功: inventory_summary.csv_20250915_211104.csv
+[ERROR] 2025-09-15 21:11:04 导出PDF失败: 'latin-1' codec can't encode characters in position 53-54: ordinal not in range(256)
+[INFO] 2025-09-15 21:11:04 获取广告数据，过滤:{'export_formats': ['excel', 'pdf', 'csv']}
+[ERROR] 2025-09-15 21:11:04 加载缓存异常: [Errno 2] No such file or directory: "d:/erp/cache/ads_{'export_formats': ['excel', 'pdf', 'csv']}.pkl"
+[INFO] 2025-09-15 21:11:04 缓存数据成功: ads_{'export_formats': ['excel', 'pdf', 'csv']}
+[INFO] 2025-09-15 21:11:04 导出Excel成功: ads_summary.xlsx_20250915_211104.xlsx
+[INFO] 2025-09-15 21:11:04 导出CSV成功: ads_summary.csv_20250915_211104.csv
+[ERROR] 2025-09-15 21:11:04 导出PDF失败: 'latin-1' codec can't encode characters in position 50-53: ordinal not in range(256)
+[INFO] 2025-09-15 21:11:04 获取结算数据，过滤:{'export_formats': ['excel', 'pdf', 'csv']}
+[ERROR] 2025-09-15 21:11:04 加载缓存异常: [Errno 2] No such file or directory: "d:/erp/cache/settlement_{'export_formats': ['excel', 'pdf', 'csv']}.pkl"
+[INFO] 2025-09-15 21:11:04 缓存数据成功: settlement_{'export_formats': ['excel', 'pdf', 'csv']}
+[INFO] 2025-09-15 21:11:04 导出Excel成功: settlement_summary.xlsx_20250915_211104.xlsx
+[INFO] 2025-09-15 21:11:04 导出CSV成功: settlement_summary.csv_20250915_211104.csv
+[ERROR] 2025-09-15 21:11:04 导出PDF失败: 'latin-1' codec can't encode characters in position 50-53: ordinal not in range(256)
+[INFO] 2025-09-15 21:11:04 导出Excel成功: all_summary.xlsx_20250915_211104.xlsx
+[INFO] 2025-09-15 21:11:04 导出CSV成功: all_orders_summary.csv_20250915_211104.csv
+[ERROR] 2025-09-15 21:11:04 导出PDF失败: 'latin-1' codec can't encode characters in position 50-53: ordinal not in range(256)
+[INFO] 2025-09-15 21:24:49 获取订单数据，开始日期:2025-09-01，结束日期:2025-09-15，过滤:['excel', 'pdf', 'csv']
+[INFO] 2025-09-15 21:24:49 加载缓存成功: orders_2025-09-01_2025-09-15_['excel', 'pdf', 'csv']
+[INFO] 2025-09-15 21:24:49 返回缓存订单数据
+[INFO] 2025-09-15 21:24:50 导出Excel成功: order_summary_2025-09-01_2025-09-15.xlsx_20250915_212449.xlsx
+[INFO] 2025-09-15 21:24:50 导出CSV成功: order_summary_2025-09-01_2025-09-15.csv_20250915_212450.csv
+[ERROR] 2025-09-15 21:24:50 导出PDF失败: 'latin-1' codec can't encode characters in position 50-53: ordinal not in range(256)
+[INFO] 2025-09-15 21:24:50 获取库存数据，过滤:['excel', 'pdf', 'csv']
+[INFO] 2025-09-15 21:24:50 加载缓存成功: inventory_['excel', 'pdf', 'csv']
+[INFO] 2025-09-15 21:24:50 返回缓存库存数据
+[INFO] 2025-09-15 21:24:50 导出Excel成功: inventory_summary.xlsx_20250915_212450.xlsx
+[INFO] 2025-09-15 21:24:50 导出CSV成功: inventory_summary.csv_20250915_212450.csv
+[ERROR] 2025-09-15 21:24:50 导出PDF失败: 'latin-1' codec can't encode characters in position 53-54: ordinal not in range(256)
+[INFO] 2025-09-15 21:24:50 获取广告数据，过滤:['excel', 'pdf', 'csv']
+[INFO] 2025-09-15 21:24:50 加载缓存成功: ads_['excel', 'pdf', 'csv']
+[INFO] 2025-09-15 21:24:50 返回缓存广告数据
+[INFO] 2025-09-15 21:24:50 导出Excel成功: ads_summary.xlsx_20250915_212450.xlsx
+[INFO] 2025-09-15 21:24:50 导出CSV成功: ads_summary.csv_20250915_212450.csv
+[ERROR] 2025-09-15 21:24:50 导出PDF失败: 'latin-1' codec can't encode characters in position 50-53: ordinal not in range(256)
+[INFO] 2025-09-15 21:24:50 获取结算数据，过滤:['excel', 'pdf', 'csv']
+[INFO] 2025-09-15 21:24:50 加载缓存成功: settlement_['excel', 'pdf', 'csv']
+[INFO] 2025-09-15 21:24:50 返回缓存结算数据
+[INFO] 2025-09-15 21:24:50 导出Excel成功: settlement_summary.xlsx_20250915_212450.xlsx
+[INFO] 2025-09-15 21:24:50 导出CSV成功: settlement_summary.csv_20250915_212450.csv
+[ERROR] 2025-09-15 21:24:50 导出PDF失败: 'latin-1' codec can't encode characters in position 50-53: ordinal not in range(256)
+[INFO] 2025-09-15 21:24:50 获取订单数据，开始日期:2025-09-01，结束日期:2025-09-15，过滤:{'export_formats': ['excel', 'pdf', 'csv']}
+[INFO] 2025-09-15 21:24:50 加载缓存成功: orders_2025-09-01_2025-09-15_{'export_formats': ['excel', 'pdf', 'csv']}
+[INFO] 2025-09-15 21:24:50 返回缓存订单数据
+[INFO] 2025-09-15 21:24:50 导出Excel成功: order_summary_2025-09-01_2025-09-15.xlsx_20250915_212450.xlsx
+[INFO] 2025-09-15 21:24:50 导出CSV成功: order_summary_2025-09-01_2025-09-15.csv_20250915_212450.csv
+[ERROR] 2025-09-15 21:24:50 导出PDF失败: 'latin-1' codec can't encode characters in position 50-53: ordinal not in range(256)
+[INFO] 2025-09-15 21:24:50 获取库存数据，过滤:{'export_formats': ['excel', 'pdf', 'csv']}
+[INFO] 2025-09-15 21:24:50 加载缓存成功: inventory_{'export_formats': ['excel', 'pdf', 'csv']}
+[INFO] 2025-09-15 21:24:50 返回缓存库存数据
+[INFO] 2025-09-15 21:24:50 导出Excel成功: inventory_summary.xlsx_20250915_212450.xlsx
+[INFO] 2025-09-15 21:24:50 导出CSV成功: inventory_summary.csv_20250915_212450.csv
+[ERROR] 2025-09-15 21:24:50 导出PDF失败: 'latin-1' codec can't encode characters in position 53-54: ordinal not in range(256)
+[INFO] 2025-09-15 21:24:50 获取广告数据，过滤:{'export_formats': ['excel', 'pdf', 'csv']}
+[INFO] 2025-09-15 21:24:50 加载缓存成功: ads_{'export_formats': ['excel', 'pdf', 'csv']}
+[INFO] 2025-09-15 21:24:50 返回缓存广告数据
+[INFO] 2025-09-15 21:24:50 导出Excel成功: ads_summary.xlsx_20250915_212450.xlsx
+[INFO] 2025-09-15 21:24:50 导出CSV成功: ads_summary.csv_20250915_212450.csv
+[ERROR] 2025-09-15 21:24:50 导出PDF失败: 'latin-1' codec can't encode characters in position 50-53: ordinal not in range(256)
+[INFO] 2025-09-15 21:24:50 获取结算数据，过滤:{'export_formats': ['excel', 'pdf', 'csv']}
+[INFO] 2025-09-15 21:24:50 加载缓存成功: settlement_{'export_formats': ['excel', 'pdf', 'csv']}
+[INFO] 2025-09-15 21:24:50 返回缓存结算数据
+[INFO] 2025-09-15 21:24:50 导出Excel成功: settlement_summary.xlsx_20250915_212450.xlsx
+[INFO] 2025-09-15 21:24:50 导出CSV成功: settlement_summary.csv_20250915_212450.csv
+[ERROR] 2025-09-15 21:24:50 导出PDF失败: 'latin-1' codec can't encode characters in position 50-53: ordinal not in range(256)
+[INFO] 2025-09-15 21:24:50 导出Excel成功: all_summary.xlsx_20250915_212450.xlsx
+[INFO] 2025-09-15 21:24:50 导出CSV成功: all_orders_summary.csv_20250915_212450.csv
+[ERROR] 2025-09-15 21:24:50 导出PDF失败: 'latin-1' codec can't encode characters in position 54-59: ordinal not in range(256)
+[INFO] 2025-09-15 21:26:11 获取订单数据，开始日期:2025-09-01，结束日期:2025-09-15，过滤:['excel', 'pdf', 'csv']
+[INFO] 2025-09-15 21:26:11 加载缓存成功: orders_2025-09-01_2025-09-15_['excel', 'pdf', 'csv']
+[INFO] 2025-09-15 21:26:11 返回缓存订单数据
+[INFO] 2025-09-15 21:26:11 导出Excel成功: order_summary_2025-09-01_2025-09-15.xlsx_20250915_212611.xlsx
+[INFO] 2025-09-15 21:26:11 导出CSV成功: order_summary_2025-09-01_2025-09-15.csv_20250915_212611.csv
+[ERROR] 2025-09-15 21:26:11 导出PDF失败: 'latin-1' codec can't encode characters in position 50-53: ordinal not in range(256)
+[INFO] 2025-09-15 21:26:11 获取库存数据，过滤:['excel', 'pdf', 'csv']
+[INFO] 2025-09-15 21:26:11 加载缓存成功: inventory_['excel', 'pdf', 'csv']
+[INFO] 2025-09-15 21:26:11 返回缓存库存数据
+[INFO] 2025-09-15 21:26:11 导出Excel成功: inventory_summary.xlsx_20250915_212611.xlsx
+[INFO] 2025-09-15 21:26:11 导出CSV成功: inventory_summary.csv_20250915_212611.csv
+[ERROR] 2025-09-15 21:26:11 导出PDF失败: 'latin-1' codec can't encode characters in position 53-54: ordinal not in range(256)
+[INFO] 2025-09-15 21:26:11 获取广告数据，过滤:['excel', 'pdf', 'csv']
+[INFO] 2025-09-15 21:26:11 加载缓存成功: ads_['excel', 'pdf', 'csv']
+[INFO] 2025-09-15 21:26:11 返回缓存广告数据
+[INFO] 2025-09-15 21:26:11 导出Excel成功: ads_summary.xlsx_20250915_212611.xlsx
+[INFO] 2025-09-15 21:26:11 导出CSV成功: ads_summary.csv_20250915_212611.csv
+[ERROR] 2025-09-15 21:26:11 导出PDF失败: 'latin-1' codec can't encode characters in position 50-53: ordinal not in range(256)
+[INFO] 2025-09-15 21:26:11 获取结算数据，过滤:['excel', 'pdf', 'csv']
+[INFO] 2025-09-15 21:26:11 加载缓存成功: settlement_['excel', 'pdf', 'csv']
+[INFO] 2025-09-15 21:26:11 返回缓存结算数据
+[INFO] 2025-09-15 21:26:11 导出Excel成功: settlement_summary.xlsx_20250915_212611.xlsx
+[INFO] 2025-09-15 21:26:11 导出CSV成功: settlement_summary.csv_20250915_212611.csv
+[ERROR] 2025-09-15 21:26:11 导出PDF失败: 'latin-1' codec can't encode characters in position 50-53: ordinal not in range(256)
+[INFO] 2025-09-15 21:26:11 获取订单数据，开始日期:2025-09-01，结束日期:2025-09-15，过滤:{'export_formats': ['excel', 'pdf', 'csv']}
+[INFO] 2025-09-15 21:26:11 加载缓存成功: orders_2025-09-01_2025-09-15_{'export_formats': ['excel', 'pdf', 'csv']}
+[INFO] 2025-09-15 21:26:11 返回缓存订单数据
+[INFO] 2025-09-15 21:26:11 导出Excel成功: order_summary_2025-09-01_2025-09-15.xlsx_20250915_212611.xlsx
+[INFO] 2025-09-15 21:26:11 导出CSV成功: order_summary_2025-09-01_2025-09-15.csv_20250915_212611.csv
+[ERROR] 2025-09-15 21:26:11 导出PDF失败: 'latin-1' codec can't encode characters in position 50-53: ordinal not in range(256)
+[INFO] 2025-09-15 21:26:11 获取库存数据，过滤:{'export_formats': ['excel', 'pdf', 'csv']}
+[INFO] 2025-09-15 21:26:11 加载缓存成功: inventory_{'export_formats': ['excel', 'pdf', 'csv']}
+[INFO] 2025-09-15 21:26:11 返回缓存库存数据
+[INFO] 2025-09-15 21:26:11 导出Excel成功: inventory_summary.xlsx_20250915_212611.xlsx
+[INFO] 2025-09-15 21:26:11 导出CSV成功: inventory_summary.csv_20250915_212611.csv
+[ERROR] 2025-09-15 21:26:11 导出PDF失败: 'latin-1' codec can't encode characters in position 53-54: ordinal not in range(256)
+[INFO] 2025-09-15 21:26:11 获取广告数据，过滤:{'export_formats': ['excel', 'pdf', 'csv']}
+[INFO] 2025-09-15 21:26:11 加载缓存成功: ads_{'export_formats': ['excel', 'pdf', 'csv']}
+[INFO] 2025-09-15 21:26:11 返回缓存广告数据
+[INFO] 2025-09-15 21:26:11 导出Excel成功: ads_summary.xlsx_20250915_212611.xlsx
+[INFO] 2025-09-15 21:26:11 导出CSV成功: ads_summary.csv_20250915_212611.csv
+[ERROR] 2025-09-15 21:26:11 导出PDF失败: 'latin-1' codec can't encode characters in position 50-53: ordinal not in range(256)
+[INFO] 2025-09-15 21:26:11 获取结算数据，过滤:{'export_formats': ['excel', 'pdf', 'csv']}
+[INFO] 2025-09-15 21:26:11 加载缓存成功: settlement_{'export_formats': ['excel', 'pdf', 'csv']}
+[INFO] 2025-09-15 21:26:11 返回缓存结算数据
+[INFO] 2025-09-15 21:26:11 导出Excel成功: settlement_summary.xlsx_20250915_212611.xlsx
+[INFO] 2025-09-15 21:26:11 导出CSV成功: settlement_summary.csv_20250915_212611.csv
+[ERROR] 2025-09-15 21:26:11 导出PDF失败: 'latin-1' codec can't encode characters in position 50-53: ordinal not in range(256)
+[INFO] 2025-09-15 21:26:11 导出Excel成功: all_summary.xlsx_20250915_212611.xlsx
+[INFO] 2025-09-15 21:26:11 导出CSV成功: all_orders_summary.csv_20250915_212611.csv
+[ERROR] 2025-09-15 21:26:11 导出PDF失败: 'latin-1' codec can't encode characters in position 54-59: ordinal not in range(256)

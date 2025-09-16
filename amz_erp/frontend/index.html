@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>ERP数据分析报表演示</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ERP数据分析报表演示</h1>
+        <form id="exportForm">
+            <label>选择模块：</label>
+            <select id="modules" multiple>
+                <option value="order">订单</option>
+                <option value="inventory">库存</option>
+                <option value="ads">广告</option>
+                <option value="settlement">结算</option>
+                <option value="summary">综合汇总</option>
+            </select><br>
+            <label>开始日期：</label>
+            <input type="date" id="startDate" value="2025-09-01"><br>
+            <label>结束日期：</label>
+            <input type="date" id="endDate" value="2025-09-15"><br>
+            <label>导出格式：</label>
+            <input type="checkbox" name="format" value="excel" checked>Excel
+            <input type="checkbox" name="format" value="csv" checked>CSV
+            <input type="checkbox" name="format" value="pdf" checked>PDF<br>
+            <button type="submit">生成报表</button>
+        </form>
+        <div id="result">
+            <!-- 分析结果和下载链接展示区 -->
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

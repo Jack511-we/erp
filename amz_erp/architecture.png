@@ -1,0 +1,48 @@
+此图片为 amz_erp 项目详细构架图，包含所有子分类及核心文件。
+
+（请注意：当前环境无法直接生成图片内容，建议使用如下文本结构在可视化工具中绘制，或我可为您生成 mermaid/plantuml 代码用于在线转换图片。）
+
+详细文本版：
+
+amz_erp/
+│
+├── data_module/                 # 公共数据模块
+│   ├── orders/                  # 订单数据模块
+│   │   ├── __init__.py
+│   │   └── orders_module.py     # 订单数据处理核心文件
+│   │
+│   ├── inventory/               # 库存数据模块
+│   │   ├── __init__.py
+│   │   └── inventory_module.py  # 库存数据处理核心文件
+│   │
+│   ├── ads/                     # 广告数据模块
+│   │   ├── __init__.py
+│   │   └── ads_module.py        # 广告数据处理核心文件
+│   │
+│   ├── settlement/              # 结算/利润模块
+│   │   ├── __init__.py
+│   │   └── settlement_module.py # 结算/利润数据处理核心文件
+│   │
+│   └── utils/                   # 工具模块
+│       ├── __init__.py
+│       └── utils.py             # 日志/缓存/异常处理
+│
+├── analysis_module/             # 数据分析模块
+│   ├── __init__.py
+│   └── xxx_analysis.py          # 分析功能文件
+│
+├── page_logic/                  # 页面后端逻辑
+│   ├── __init__.py
+│   └── xxx_page.py              # 页面后端逻辑文件
+│
+├── frontend/                    # 前端展示层
+│   ├── index.html
+│   ├── orders.js
+│   ├── inventory.js
+│   └── style.css
+│
+├── tests/                       # 单元测试
+│   ├── test_orders.py
+│   └── test_inventory.py
+│
+└── main.py                      # 程序启动入口
