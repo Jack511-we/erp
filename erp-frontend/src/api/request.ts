@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-  baseURL: '/api', // 可根据实际后端地址调整
+  baseURL: 'http://127.0.0.1:5000/api',
   timeout: 10000,
 });
 
