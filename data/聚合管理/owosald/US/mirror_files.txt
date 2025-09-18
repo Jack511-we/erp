@@ -1,0 +1,14 @@
+# 文件夹镜像清单
+# 用于聚合脚本抓取和数据校验
+
+原始数据目录: D:\erp\data\亚马逊月销售统计资料\owosald\US
+
+## 月度文件夹及CSV文件列表
+MAY/2025MayMonthlyUnifiedTransaction.csv
+MAR/2025MarMonthlyUnifiedTransaction.csv
+JUN/2025JunMonthlyUnifiedTransaction.csv
+JAN/2025JanMonthlyUnifiedTransaction.csv
+JUL/2025JulMonthlyUnifiedTransaction.csv
+FEB/2025FebMonthlyUnifiedTransaction.csv
+APR/2025AprMonthlyUnifiedTransaction.csv
+AUG/2025AugMonthlyUnifiedTransaction.csv

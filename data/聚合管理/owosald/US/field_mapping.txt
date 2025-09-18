@@ -1,0 +1,12 @@
+# 字段映射表
+# 用于聚合脚本统一识别不同CSV的字段
+
+[时间]
+date/time
+Date
+order date
+
+[销售额]
+total
+product sales
+sales

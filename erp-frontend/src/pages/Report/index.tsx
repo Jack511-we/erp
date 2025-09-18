@@ -5,8 +5,8 @@
 // 功能说明：报表页
 
 import React, { useState } from 'react';
-import { Card, Table, Form, Input, Button, Row, Col } from 'antd';
-import ReactECharts from 'echarts-for-react';
+import { Card, Form, Input, Button } from 'antd';
+import AggregatedTable from '../../components/AggregatedTable';
 
 const columns = [
 	{ title: '订单号', dataIndex: 'orderId', key: 'orderId' },
@@ -29,36 +29,23 @@ const chartOption = {
 	series: [{ name: '金额', type: 'bar', data: [1200, 800, 1500] }],
 };
 
+// 保留你需要的 Report 组件，删除重复声明
 const Report = () => {
-	const [form] = Form.useForm();
-	const [tableData, setTableData] = useState(data);
-
-		const onSearch = (values: { customer?: string }) => {
-		const { customer } = values;
-		setTableData(
-			customer
-				? data.filter(item => item.customer.includes(customer))
-				: data
-		);
-	};
+	// 修正为实际聚合文件参数
+	const account = 'US';
+	const year = 'JUL';
+	const month = 'day';
+	const filename = '2025/daily_summary_2025.pkl';
 
 	return (
 		<div className="p-6 space-y-6">
 			<Card title="筛选条件">
-				<Form form={form} layout="inline" onFinish={onSearch}>
-					<Form.Item name="customer" label="客户">
-						<Input placeholder="输入客户名称" />
-					</Form.Item>
-					<Form.Item>
-						<Button type="primary" htmlType="submit">查询</Button>
-					</Form.Item>
+				<Form layout="inline">
+					{/* 可扩展筛选表单 */}
 				</Form>
 			</Card>
-			<Card title="订单报表" className="mt-6">
-				<Table columns={columns} dataSource={tableData} rowKey="orderId" pagination={false} />
-			</Card>
-			<Card title="订单金额分布" className="mt-6">
-				<ReactECharts option={chartOption} style={{ height: 300 }} />
+			<Card title="销售日汇总表格" className="mt-6">
+				<AggregatedTable account={account} year={year} month={month} filename={filename} />
 			</Card>
 		</div>
 	);

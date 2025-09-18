@@ -1,0 +1,32 @@
+# CSV表头中英文对照
+
+date/time=日期时间
+settlement id=结算ID
+type=类型
+order id=订单ID
+sku=SKU
+description=商品描述
+quantity=数量
+marketplace=市场
+account type=账号类型
+fulfillment=配送方式
+order city=订单城市
+order state=订单州
+order postal=订单邮编
+tax collection model=税收模式
+product sales=商品销售额
+product sales tax=商品销售税
+shipping credits=运费补贴
+shipping credits tax=运费补贴税
+gift wrap credits=礼品包装补贴
+giftwrap credits tax=礼品包装补贴税
+Regulatory Fee=监管费
+Tax On Regulatory Fee=监管费税
+promotional rebates=促销返利
+promotional rebates tax=促销返利税
+marketplace withheld tax=平台代扣税
+selling fees=销售费用
+fba fees=FBA费用
+other transaction fees=其他交易费用
+other=其他
+total=总计
